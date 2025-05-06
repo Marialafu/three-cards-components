@@ -1,3 +1,5 @@
+/* Donde se pone el texto del botón, la font-family: inherit no funciona.El border-radius tendría que ir en */
+
 *,
 *::after,
 *::before {
@@ -27,9 +29,19 @@ nav ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: white;
+  padding: 2.5rem 1.5rem;
 }
 
 .card-group{
   display: flex;
   flex-direction: column;
+}
+
+.buttons{
+  width: 9.125rem;
+  height: 3rem;
+  border-radius: 1.5625rem;
+  border: none;
+  background-color: white;
 }
