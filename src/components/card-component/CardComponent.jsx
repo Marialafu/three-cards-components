@@ -8,8 +8,8 @@ const CardComponent = ({primaryColor, primaryColorText, text, title, img}) => {
   return (
     <div className={cardComponentClass}>
       <img src={img} alt="" />
-      <h2 className='title'>{title}</h2>
-      <p className='text'>{text}</p>
+      <h2 className={styles.title}>{title}</h2>
+      <p className={styles.text}>{text}</p>
       <button className={buttonsClass}>Learn More</button>
     </div>
   );
